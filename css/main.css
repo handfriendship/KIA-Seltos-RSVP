@@ -1,0 +1,74 @@
+.global-props {font-family: 'Open Sans', sans-serif;}
+.content-section {}
+.same-p {font-size:16px;margin-bottom:2%;font-family: 'Open Sans', sans-serif;}
+.bold {font-weight:bold;}
+
+
+.tap-section {}
+.tap-section button {}
+
+.title-section {display:flex;justify-content:center;margin-bottom:4%;}
+.title {width:100%;text-align:center;font-size:48px;line-height:normal;margin-bottom:2%;}
+.line {width:115px;border-bottom:solid 2px #8b7c40;}
+
+.explanation {position:relative;}
+.register-btn-wrap {text-align:center;margin-top:5%;}
+.register-btn {border-radius:25px;background-color:#d9ae45;color:#fff;
+  font-weight:bold;line-height:1.5;font-size:18px;padding:2% 9%;}
+
+.picture-inner-wrap img {width:100%;}
+
+.info-section {padding:10% 0;}
+.column {}
+.circle {position:relative;width:72%;height:0;padding-bottom:71%;border:1px solid #e4d3aa;margin:0 auto;border-radius:50%;}
+.inner-circle {position:absolute;width:100%;height:100%;top:0;left:0;}
+.icon-area {height:40%;display:flex;align-items:center;justify-content:center;}
+.inner-span {font-size:35px;color:#d9ae45;}
+.info-area {font-size:16px;line-height:1.5;color:#222;text-align:center;}
+
+.agenda {text-align:center;}
+.agenda-intro {}
+.agenda-intro-content {width:70%;margin:0 auto;}
+.same-agenda-font {font-size:16px;}
+.same-style-button {border-radius:26px;background-color:#8b7c40;color:#fff;
+  padding:1% 3%;margin:4% 0%;}
+
+.time-table-section {display:flex;flex-flow:row wrap;justify-content:center;align-items:center;overflow:hidden;}
+.time-table-unit {}
+.same-form-span {}
+.time-table-line {}
+.vertical-line {width:0;height:100%;}
+.time-table-time {flex:1 1 0;padding-right:3%;border-right:1px solid #8b7c40;text-align:right;}
+.time-table-event {flex:1 1 0;padding-left:3%;text-align:left;}
+.same-div {margin:0;}
+.same-div:nth-child(-n+5) {padding-bottom:3%;margin:0;}
+
+@media all and (max-width:1199px) {
+  .info-area {font-size:13px;}
+  .same-p {font-size:13px;}
+}
+
+@media all and (max-width:991px) {
+  .register-btn {font-size:12px;}
+  .info-area {font-size:10px;}
+  .same-p {font-size:10px;}
+}
+
+@media all and (max-width:767px) {
+  .circle {margin-top:5%;margin-bottom:5%;width:50%;padding-bottom:50%;}
+  .same-p {font-size:16px;}
+  .explanation-p {margin-bottom:4%;}
+  .info-area {font-size:16px;}
+  .register-btn-wrap {margin-bottom:5%;}
+  .same-div:nth-child(-n+5) {height:50px;padding-bottom:0;}
+
+  .agenda-intro-content {width:100%;}
+}
+
+@media all and (max-width:449px) {
+  .same-p {font-size:13px;}
+  .same-p.same-div {font-size:12px;}
+  .same-div:nth-child(-n+5) {height:40px;}
+  .same-agenda-font {font-size:12px;}
+  .info-area {font-size:11px;}
+}
