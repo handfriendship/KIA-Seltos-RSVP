@@ -7,11 +7,11 @@
 .bold {font-weight:bold;}
 .toggle-tap {background-color:#8b7c40;color:white;}
 
-.tap {display:flex;flex-flow:row wrap;border-radius:35px;box-sizing:border-box;border:1px solid #8b7c40;margin:5% 0;}
+.tap {display:flex;flex-flow:row wrap;border-radius:20px;box-sizing:border-box;border:1px solid #8b7c40;margin:5% 0;}
 .tap div {display:flex;align-items:center;justify-content:center;flex:1 1 0;font-size:16px;text-align:center;padding:2% 0;
   border-right:1px solid #8b7c40;cursor:pointer;box-sizing:border-box;font-family:'KIA_BOLD', sans-serif;}
-.tap div:first-child {border-top-left-radius:32px;border-bottom-left-radius:32px;}
-.tap div:last-child {border-top-right-radius:32px;border-bottom-right-radius:32px;}
+.tap div:first-child {border-top-left-radius:17px;border-bottom-left-radius:17px;}
+.tap div:last-child {border-top-right-radius:17px;border-bottom-right-radius:17px;}
 .tap div:hover {background-color:#8b7c40;color:white;}
 .tap div:last-child {border-right:none;}
 
@@ -21,8 +21,8 @@
 .line {width:115px;border-bottom:solid 2px #8b7c40;}
 
 .explanation {position:relative;}
-.register-btn-wrap {text-align:center;margin-top:5%;}
-.register-btn {border-radius:50px;background-color:#d9ae45;color:#fff;
+.register-btn-wrap {text-align:center;}
+.register-btn {border-radius:50px;background-color:#d9ae45;color:#fff;margin:5% 0;
   font-weight:bold;line-height:1.5;font-size:18px;padding:2.5% 10%;border:none;}
 
 .picture-inner-wrap img {width:100%;}
@@ -31,7 +31,7 @@
 .circle {position:relative;width:72%;height:0;padding-bottom:71%;border:1px solid #e4d3aa;margin:0 auto;border-radius:50%;}
 .inner-circle {position:absolute;width:100%;height:100%;top:0;left:0;}
 .icon-area {height:40%;display:flex;align-items:center;justify-content:center;}
-.inner-span {width:22%;}
+/* .inner-span {width:22%;} */
 .inner-span img {width:100%;}
 .info-area {font-size:16px;line-height:1.5;color:#222;text-align:center;}
 
@@ -52,13 +52,14 @@
 .same-input-1 {border:none;border-bottom:1px solid #b7b7b7;width:100%;font-size:16px;padding:5% 0;}
 .same-input-1:focus {outline:none;}
 .same-input-2 {padding:3.33% 0;}
-.same-label {padding:7% 0 2% 0;margin-right:10px;}
-.download-btn {border:1px solid #8b7c40;background-color:white;color:#8b7c40;border-radius:10px;margin-top:5px;}
+.same-label {padding:7% 0 2% 0;margin-right:10px;font-family:'KIA_BOLD', sans-serif;font-weight:600;letter-spacing:0.5;}
+.download-btn {border:1px solid #8b7c40;background-color:white;color:#8b7c40;border-radius:10px;margin-top:5px;font-size:14px;
+  padding:8px 20px;}
 
 .submit-btn-wrapper {text-align:center;}
 
 .same-style-btn {width:170px;min-height:15px;border-radius:50px;
-  background-color:#8b7c40;color:#fff;border:none;box-sizing:content-box;padding:1.5% 2.5%;}
+  background-color:#8b7c40;color:#fff;border:none;box-sizing:content-box;padding:15px 20px;}
 .submit-btn {margin:5% 0 10% 0;}
 @media all and (max-width:1199px) {
   .info-area {font-size:14px;}
@@ -70,16 +71,17 @@
 }
 
 @media all and (max-width:767px) {
-  .title {margin-bottom:5%;}
+  .title {margin-bottom:10%;font-size:34px;}
 
   .column.col-md-4:first-child {order:3}
   .column.col-md-4:nth-child(2) {order:2}
   .column.col-md-4:last-child {order:1}
 
+  .tap {margin-bottom:10%;}
   .tap div {width:50%;flex:0 1 auto;height:60px;}
   .tap div:first-child {border-bottom-left-radius:0;}
-  .tap div:nth-child(2) {border-top-right-radius:32px;border-right:none;}
-  .tap div:nth-child(3) {border-bottom-left-radius:32px;}
+  .tap div:nth-child(2) {border-top-right-radius:17px;border-right:none;}
+  .tap div:nth-child(3) {border-bottom-left-radius:17px;}
   .tap div:last-child {border-top-right-radius:0;border-right:none;}
   .tap div:nth-child(-n+2) {border-bottom:1px solid #8b7c40;}
 
@@ -88,8 +90,10 @@
   .explanation-p {margin-bottom:4%;}
   .info-area {font-size:20px;}
   .inner-span {font-size:50px;}
-  .register-btn-wrap {margin-bottom:5%;}
   .same-div:nth-child(-n+5) {height:50px;padding-bottom:0;}
+  .submit-btn {margin:10% 0 20% 0;}
+  .register-btn {margin:10% 0;}
+  .agenda-button {margin:8% 0;}
 
   .reg {margin-left:0%;margin-right:0%;}
   .same-input-2 {padding:5% 0;}
