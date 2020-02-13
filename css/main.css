@@ -10,8 +10,8 @@
 .tap {display:flex;flex-flow:row wrap;border-radius:35px;box-sizing:border-box;border:1px solid #8b7c40;margin:5% 0;}
 .tap div {display:flex;align-items:center;justify-content:center;flex:1 1 0;font-size:16px;text-align:center;padding:2% 0;
   border-right:1px solid #8b7c40;cursor:pointer;box-sizing:border-box;font-family:'KIA_BOLD', sans-serif;}
-.tap div:first-child {border-top-left-radius:inherit;border-bottom-left-radius:inherit;}
-.tap div:last-child {border-top-right-radius:inherit;border-bottom-right-radius:inherit;}
+.tap div:first-child {border-top-left-radius:32px;border-bottom-left-radius:32px;}
+.tap div:last-child {border-top-right-radius:32px;border-bottom-right-radius:32px;}
 .tap div:hover {background-color:#8b7c40;color:white;}
 .tap div:last-child {border-right:none;}
 
@@ -78,8 +78,8 @@
 
   .tap div {width:50%;flex:0 1 auto;height:60px;}
   .tap div:first-child {border-bottom-left-radius:0;}
-  .tap div:nth-child(2) {border-top-right-radius:inherit;border-right:none;}
-  .tap div:nth-child(3) {border-bottom-left-radius:inherit;}
+  .tap div:nth-child(2) {border-top-right-radius:32px;border-right:none;}
+  .tap div:nth-child(3) {border-bottom-left-radius:32px;}
   .tap div:last-child {border-top-right-radius:0;border-right:none;}
   .tap div:nth-child(-n+2) {border-bottom:1px solid #8b7c40;}
 
