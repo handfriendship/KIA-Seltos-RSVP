@@ -9,7 +9,7 @@
 
 .tap {display:flex;flex-flow:row wrap;border-radius:35px;box-sizing:border-box;border:1px solid #8b7c40;margin:5% 0;}
 .tap div {display:flex;align-items:center;justify-content:center;flex:1 1 0;font-size:16px;text-align:center;padding:2% 0;
-  border-right:1px solid #8b7c40;cursor:pointer;box-sizing:border-box;}
+  border-right:1px solid #8b7c40;cursor:pointer;box-sizing:border-box;font-family:'KIA_BOLD', sans-serif;}
 .tap div:first-child {border-top-left-radius:inherit;border-bottom-left-radius:inherit;}
 .tap div:last-child {border-top-right-radius:inherit;border-bottom-right-radius:inherit;}
 .tap div:hover {background-color:#8b7c40;color:white;}
